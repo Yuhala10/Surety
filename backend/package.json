@@ -1,0 +1,44 @@
+{
+  "name": "surety-backend",
+  "version": "1.0.0",
+  "description": "SURETY - Digital Trust & Escrow Platform Backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "escrow",
+    "trust",
+    "transactions",
+    "cameroon"
+  ],
+  "author": "SURETY Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.1.0",
+    "bcryptjs": "^2.4.3",
+    "speakeasy": "^2.0.0",
+    "qrcode": "^1.5.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-validator": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0",
+    "axios": "^1.5.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
