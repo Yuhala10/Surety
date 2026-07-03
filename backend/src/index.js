@@ -36,6 +36,7 @@ app.use('/api/disputes', require('./routes/disputes'));
 app.use('/api/wallet', require('./routes/wallet'));
 app.use('/api/notifications', require('./routes/notifications'));
 app.use('/api/payments', require('./routes/payments'));
+app.use('/api/trust-score', require('./routes/trustScore'));
 
 // 404 Handler
 app.use((req, res) => {
