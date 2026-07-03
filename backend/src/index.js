@@ -54,6 +54,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`🚀 SURETY Backend running on port ${PORT}`);
   console.log(`Environment: ${process.env.NODE_ENV}`);
+  console.log(`Database: Connected to ${process.env.DATABASE_NAME}`);
   console.log(`Campay Integration: ${process.env.CAMPAY_SANDBOX === 'true' ? 'SANDBOX' : 'PRODUCTION'}`);
 });
 
